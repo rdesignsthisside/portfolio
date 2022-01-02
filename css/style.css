@@ -51,13 +51,9 @@ body {
 
 a {
   color: #FF9000;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #FF9000;
-  outline: none;
   text-decoration: none;
 }
 
@@ -594,6 +590,15 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #202020;
 }
 
+.timeline-body a {
+  /* text-transform: uppercase; */
+  font-weight: bold;
+}
+
+.timeline-body a:hover {
+  color: #ff6600;
+}
+
 .timeline-body > p + p {
   margin-top: 5px;
 }
@@ -833,6 +838,10 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 50px;
 }
 
+#fh5co-started .fh5co-heading a.btn-hire:hover {
+  background: #000;
+}
+
 
 /* #fh5co-consult {
   display: -webkit-box;
@@ -916,6 +925,11 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-footer p {
   color: #fff;
 }
+
+#fh5co-footer a {
+  color: #FF9000;
+}
+
 
 #fh5co-footer p:last-child {
   margin-bottom: 0;
@@ -1033,6 +1047,10 @@ input[type="text"] {
   transition: all 0.4s;
   color: #fff;
   padding: 3px 0 0 12px;
+}
+
+.float-whatsapp:hover {
+  color: #fff;
 }
 
 
