@@ -821,8 +821,21 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-started .fh5co-heading h2 {
   color: #fff;
+  font-weight: 500;
   margin-bottom: 40px !important;
 }
+
+@media (max-width : 576px) {
+  #fh5co-started .fh5co-heading h2 {
+    font-size: 30px
+  }
+
+  #fh5co-started {
+    padding: 50px 0;
+  }
+}
+
+
 #fh5co-started .fh5co-heading p {
   color: rgba(255, 255, 255, 0.8);
 }
